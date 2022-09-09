@@ -26,7 +26,7 @@
 
 }
 .center #about{
-  border-color: black;
+border-color: black;
 position:relative;
 display: block;
 top:5%;
@@ -125,7 +125,7 @@ text-justify: inter-word;
 
 #Projects {
   position: absolute;
-  margin-top: 70%;
+  margin-top: 60%;
   margin-left: 4%;
   float:left;
   width: 90%;
