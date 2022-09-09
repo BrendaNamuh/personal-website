@@ -1,0 +1,196 @@
+* {
+
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Abril Fatface';
+    color:floralwhite;
+}
+
+
+
+.center {
+  
+  margin-top: 5%;
+  margin-left: 4%;
+  float:left;
+  width: 60%;
+  height: 90%;
+
+ 
+  /*white-space: nowrap;*/
+  
+
+  /* bring your own prefixes */
+  /*transform: translate(-50%, -50%);*/
+  font-size: large;
+
+}
+.center #about{
+  border-color: black;
+position:relative;
+display: block;
+top:5%;
+font-size: 1.5em;
+line-height: 180%;
+text-align: justify;
+text-justify: inter-word;
+}
+/*nav .navlinks{
+    position: absolute;
+    padding: 50px 50px 75px 100px;
+    float:right;
+
+    
+    
+    border-color: black;
+    
+}*/
+
+ li {
+    /*display: inline-flex;  /* horizontal*/
+    padding: 50px 50px 75px 100px;
+    float:right;
+    list-style-type: none;
+    font-size: 1.4em;
+}
+
+
+/*ARROW*/
+.scroll-down-arrow {
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iQ2hldnJvbl90aGluX2Rvd24iIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgMjAgMjAiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDIwIDIwIiBmaWxsPSJ3aGl0ZSIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+PHBhdGggZD0iTTE3LjQxOCw2LjEwOWMwLjI3Mi0wLjI2OCwwLjcwOS0wLjI2OCwwLjk3OSwwYzAuMjcsMC4yNjgsMC4yNzEsMC43MDEsMCwwLjk2OWwtNy45MDgsNy44M2MtMC4yNywwLjI2OC0wLjcwNywwLjI2OC0wLjk3OSwwbC03LjkwOC03LjgzYy0wLjI3LTAuMjY4LTAuMjctMC43MDEsMC0wLjk2OWMwLjI3MS0wLjI2OCwwLjcwOS0wLjI2OCwwLjk3OSwwTDEwLDEzLjI1TDE3LjQxOCw2LjEwOXoiLz48L3N2Zz4=);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.scroll-down-link {
+  position: absolute;
+  z-index: 100;
+  cursor: pointer;
+  height: 60px;
+  width: 80px;
+  margin: 0px 0 0 -40px;
+  line-height: 60px;
+  left: 50%;
+  bottom: 10px;
+  color: #FFF;
+  text-align: center;
+  font-size: 70px;
+  text-decoration: none;
+  text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.4);
+  -webkit-animation: fade_move_down 2s ease-in-out infinite;
+  -moz-animation: fade_move_down 2s ease-in-out infinite;
+  animation: fade_move_down 2s ease-in-out infinite;
+  /*animated scroll arrow animation*/
+}
+@-webkit-keyframes fade_move_down {
+  0% {
+    -webkit-transform: translate(0, -20px);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: translate(0, 20px);
+    opacity: 0;
+  }
+}
+@-moz-keyframes fade_move_down {
+  0% {
+    -moz-transform: translate(0, -20px);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    -moz-transform: translate(0, 20px);
+    opacity: 0;
+  }
+}
+@keyframes fade_move_down {
+  0% {
+    transform: translate(0, -20px);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate(0, 20px);
+    opacity: 0;
+  }
+}
+/*END OF ARROW*/
+
+#Projects {
+  position: absolute;
+  margin-top: 70%;
+  margin-left: 4%;
+  float:left;
+  width: 90%;
+  height: 90%;
+  font-size: 2em;
+
+}
+
+
+
+/* DEMO-SPECIFIC STYLES */
+.typewriter h1 {
+width: auto;
+
+display:inline-block;
+font-size:  2.5em;
+
+/*position: relative;
+  margin-left: 50%;
+  display:block;*/
+  /* bring your own prefixes */
+  /*transform: translate(-50%, -50%);*/
+  font-size:  3em;
+
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  /*margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  /*letter-spacing: .15em; /* Adjust as needed */
+  animation:
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { max-width: 0 }
+  to { max-width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent}
+  50% { border-color: floralwhite }
+}
+
+/* About page*/
+
+.abouttitle{
+  margin-left: 5%;
+  margin-top: 7%;
+  font-size: 2em;
+}
+.backstory{
+  font-size: 1.5em;
+  text-align: justify;
+  margin-left: 20%;
+  margin-right: 5%;
+  margin-top: 10;
+  line-height: 1.9;
+}
+
+
+.static {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
