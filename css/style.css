@@ -2,16 +2,22 @@
     /*text-decoration: none;*/
     font-family: 'Fraunces', sans-serif;
     color: rgb(16, 83, 33);;
+    display: inline-block;
+    z-index: 1;
 }
 
-
-
+title {
+  display: none;
+}
 .center {
   margin-top: 10%;
   margin-left: 4%;
   float:left;
   width: 60%;
   height: 90%;
+  display: inline-block
+
+
   
 }
 
@@ -97,6 +103,8 @@ ul{
   width: 95%;
   height: 95%;
   justify-self: center;
+  display: inline-block;
+ 
 }
 
  #latest-project{
@@ -109,6 +117,10 @@ ul{
   margin-top: 7%;
   margin-left: -17%;
   float:left;
+  display: inline-block;
+  
+
+
   
 }
 
@@ -124,7 +136,8 @@ ul{
   font-style: italic;
   text-align: center;
   padding-top: 15%;
- 
+  display: inline-block;
+  z-index: -1;
 }
 
 
@@ -156,3 +169,5 @@ animation:
   from, to { border-color: transparent}
   50% { border-color:rgba(10, 83, 3, 0.83); }
 }
+
+
