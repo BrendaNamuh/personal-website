@@ -15,10 +15,6 @@ title {
   float:left;
   width: 60%;
   height: 90%;
-  
-
-
-  
 }
 
 
@@ -37,17 +33,12 @@ font-weight:900;
 
 .links{
   list-style: none;
- 
-  
-
 }
  li a {
     text-decoration: none;
-    display: inline-block;
     padding: 15px 53px 15px 45px;
     font-size: 2.2em;
     margin-right: 0%;
-    
  }
 
 
@@ -98,15 +89,13 @@ font-weight:900;
 
 
 #Projects {
-  position: absolute;
-  margin-top: 58%;
+  position: relative;
+  margin-top: 0%;
   margin-left: 4%;
   float:left;
   width: 95%;
   height: 95%;
   justify-self: center;
-  
- 
 }
 
  #latest-project{
@@ -119,11 +108,6 @@ font-weight:900;
   margin-top: 7%;
   margin-left: -17%;
   float:left;
- 
-  
-
-
-  
 }
 
 #latest-proj-explanation{
@@ -138,7 +122,6 @@ font-weight:900;
   font-style: italic;
   text-align: center;
   padding-top: 15%;
-
 }
 
 
