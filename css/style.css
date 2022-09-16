@@ -3,7 +3,7 @@
     font-family: 'Fraunces', sans-serif;
     color: rgb(16, 83, 33);;
     display: inline-block;
-    z-index: 1;
+   
 }
 
 title {
@@ -15,7 +15,7 @@ title {
   float:left;
   width: 60%;
   height: 90%;
-  display: inline-block
+  
 
 
   
@@ -35,16 +35,18 @@ font-weight:900;
 
 }
 
-ul{
+.links{
   list-style: none;
+ 
+  
+
 }
  li a {
     text-decoration: none;
-    display: block;
-    float: right;
-    padding: 40px 25px 75px 45px;
-    font-size: 1.8em;
-    padding-right: 0%;
+    display: inline-block;
+    padding: 25px 53px 25px 45px;
+    font-size: 2.2em;
+    margin-right: 0%;
     
  }
 
