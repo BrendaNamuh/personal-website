@@ -1,13 +1,13 @@
 * {background-color: white;
-    text-decoration: none;
+    /*text-decoration: none;*/
     font-family: 'Fraunces', sans-serif;
-    color: rgb(16, 83, 33);
+    color: rgb(16, 83, 33);;
 }
 
 
 
 .center {
-  margin-top: 8%;
+  margin-top: 10%;
   margin-left: 4%;
   float:left;
   width: 60%;
