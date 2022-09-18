@@ -60,11 +60,8 @@ font-weight:900;
   border-bottom: 4px solid rgb(16, 83, 33);;
   border-right: 4px solid rgb(16, 83, 33);;
   z-index: 9;
-  -webkit-transform: translate(-50%, 0%) rotate(45deg);
-  -moz-transform: translate(-50%, 0%) rotate(45deg);
   transform: translate(-50%, 0%) rotate(45deg);
   -webkit-animation: fade_move_down 2.5s ease-in-out infinite;
-  -moz-animation:    fade_move_down 2.5s ease-in-out infinite;
   animation:         fade_move_down 2.5s ease-in-out infinite;
 }
 
@@ -73,11 +70,6 @@ font-weight:900;
   0%   { -webkit-transform:translate(0,-10px) rotate(45deg); opacity: 0;  }
   50%  { opacity: 1;  }
   100% { -webkit-transform:translate(0,10px) rotate(45deg); opacity: 0; }
-}
-@-moz-keyframes fade_move_down {
-  0%   { -moz-transform:translate(0,-10px) rotate(45deg); opacity: 0;  }
-  50%  { opacity: 1;  }
-  100% { -moz-transform:translate(0,10px) rotate(45deg); opacity: 0; }
 }
 @keyframes fade_move_down {
   0%   { transform:translate(0,-10px) rotate(45deg); opacity: 0;  }
@@ -137,18 +129,30 @@ border-right: .15em solid orange; /* The typwriter cursor */
 white-space: nowrap; /* Keeps the content on a single line */
 /*margin: 0 auto; /* Gives that scrolling effect as the typing happens */
  
-animation:
+-webkit-animation:
+  typing 3.5s steps(30, end),
+  blink-caret .5s step-end infinite;
+ 
+        animation:
   typing 3.5s steps(30, end),
   blink-caret .5s step-end infinite;
 }
 
 /* The typing effect */
+@-webkit-keyframes typing {
+  from { max-width: 0 }
+  to { max-width: 100% }
+}
 @keyframes typing {
   from { max-width: 0 }
   to { max-width: 100% }
 }
 
 /* The typewriter cursor effect */
+@-webkit-keyframes blink-caret {
+  from, to { border-color: transparent}
+  50% { border-color:rgba(10, 83, 3, 0.83); }
+}
 @keyframes blink-caret {
   from, to { border-color: transparent}
   50% { border-color:rgba(10, 83, 3, 0.83); }
@@ -163,6 +167,6 @@ animation:
   .down-arrow{display: none;}
   .center #about{font-size: 1em;}
   .typewriter h1{font-size: 1.5em;}
- .links{font-size: 0.45em;  position:fixed; min-width:min-content;float:left; 
+ .links{font-size: 0.45em;  position:fixed; min-width:-webkit-min-content; min-width:-moz-min-content; min-width:min-content;float:left; 
   display:flex; right: 20%;}
 }
