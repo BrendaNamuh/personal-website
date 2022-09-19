@@ -2,9 +2,10 @@
   /*text-decoration: none;*/
   font-family: 'Fraunces', sans-serif;
   color: rgb(16, 83, 33);;
-  display: inline-block;
+
  
 }
+
 
 title {
 display: none;
@@ -33,6 +34,8 @@ font-weight:900;
 
 .links{
 list-style: none;
+
+
 }
 li a {
   text-decoration: none;
