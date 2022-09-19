@@ -1,0 +1,172 @@
+* {background-color: white;
+    /*text-decoration: none;*/
+    font-family: 'Fraunces', sans-serif;
+    color: rgb(16, 83, 33);;
+    display: inline-block;
+   
+}
+
+title {
+  display: none;
+}
+.center {
+  margin-top: 10%;
+  margin-left: 4%;
+  float:left;
+  width: 60%;
+  height: 90%;
+}
+
+
+.center #about{
+/*border-color: black;*/
+position:relative;
+display: block;
+top:4%;
+font-size: 1.5em;
+line-height: 180%;
+text-align: justify;
+text-justify: inter-word;
+font-weight:900;
+
+}
+
+.links{
+  list-style: none;
+}
+ li a {
+    text-decoration: none;
+    padding: 15px 53px 15px 45px;
+    font-size: 2.2em;
+    margin-right: 0%;
+ }
+
+
+
+/*ARROW*/
+.down-arrow {
+
+  position: absolute;
+  left: 50%;
+  bottom: 20px;
+  display: block;
+  text-align: center;
+  
+  z-index: 100;
+  text-decoration: none;
+  text-shadow: 0;
+  width: 20px;
+  height: 20px;
+  border-bottom: 4px solid rgb(16, 83, 33);;
+  border-right: 4px solid rgb(16, 83, 33);;
+  z-index: 9;
+  transform: translate(-50%, 0%) rotate(45deg);
+  -webkit-animation: fade_move_down 2.5s ease-in-out infinite;
+  animation:         fade_move_down 2.5s ease-in-out infinite;
+}
+
+/*animated scroll arrow animation*/
+@-webkit-keyframes fade_move_down {
+  0%   { -webkit-transform:translate(0,-10px) rotate(45deg); opacity: 0;  }
+  50%  { opacity: 1;  }
+  100% { -webkit-transform:translate(0,10px) rotate(45deg); opacity: 0; }
+}
+@keyframes fade_move_down {
+  0%   { transform:translate(0,-10px) rotate(45deg); opacity: 0;  }
+  50%  { opacity: 1;  }
+  100% { transform:translate(0,10px) rotate(45deg); opacity: 0; }
+}
+/*END OF ARROW*/
+
+
+
+#Projects {
+  position: relative;
+  margin-top: 0%;
+  margin-left: 3%;
+  float:left;
+  width: 95%;
+  height: 95%;
+  justify-self: center;
+}
+
+ #latest-project{
+  position:absolute;
+  height: 555px;
+  width: 1000px;
+  /*border:none;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border-radius: 4%;*/
+  margin-top: 7%;
+  margin-left: -17%;
+  float:left;
+}
+
+#latest-proj-explanation{
+  position: relative;
+  font-size: 1.2em;
+  line-height: 160%;
+  float: right;
+  width:20%;
+  height:45%;
+  margin-top: 7%;
+  margin-right: 4%;
+  font-style: italic;
+  text-align: center;
+  padding-top: 15%;
+}
+
+
+/* Typing Effect Setup */
+.typewriter h1 {
+width: auto;
+
+display:inline-block;
+font-size:  2.5em;
+
+overflow: hidden; /* Ensures the content is not revealed until the animation */
+border-right: .15em solid orange; /* The typwriter cursor */
+white-space: nowrap; /* Keeps the content on a single line */
+/*margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+ 
+-webkit-animation:
+  typing 3.5s steps(30, end),
+  blink-caret .5s step-end infinite;
+ 
+        animation:
+  typing 3.5s steps(30, end),
+  blink-caret .5s step-end infinite;
+}
+
+/* The typing effect */
+@-webkit-keyframes typing {
+  from { max-width: 0 }
+  to { max-width: 100% }
+}
+@keyframes typing {
+  from { max-width: 0 }
+  to { max-width: 100% }
+}
+
+/* The typewriter cursor effect */
+@-webkit-keyframes blink-caret {
+  from, to { border-color: transparent}
+  50% { border-color:rgba(10, 83, 3, 0.83); }
+}
+@keyframes blink-caret {
+  from, to { border-color: transparent}
+  50% { border-color:rgba(10, 83, 3, 0.83); }
+}
+
+
+
+@media screen and (max-width:1430px) {
+  #latest-proj-explanation{display: none;}
+  #latest-project{display: none;}
+  #Projects{display: none;}
+  .down-arrow{display: none;}
+  .center #about{font-size: 1em;}
+  .typewriter h1{font-size: 1.5em;}
+ .links{font-size: 0.45em;  position:fixed; min-width:-webkit-min-content; min-width:-moz-min-content; min-width:min-content;float:left; 
+  display:flex; right: 20%;}
+}
