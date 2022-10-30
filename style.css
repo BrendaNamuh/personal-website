@@ -20,7 +20,7 @@
   .center #about{
   position:absolute;
   margin-top:4%;
-  display: block;
+  display: inline-block;
   font-size: 1.5em;
   line-height: 180%;
   text-align: justify;
@@ -41,13 +41,13 @@ height:100%
   position:absolute;
   list-style: none;
   display: inline-block;
-  bottom:0%;
   left:0%;
+ 
   }
 
 #footer a{ 
     text-decoration: none;
-    margin: 0 3rem;
+    margin: 0 3rem 0  0;
     font-size: 1.2em;
   }
   
