@@ -1,5 +1,4 @@
 * {background-color: white;
-    /*text-decoration: none;*/
     font-family: 'Fraunces', sans-serif;
     color: rgb(16, 83, 33);;
   }
@@ -11,31 +10,14 @@
   .center {
   display:inline-block;
   position: absolute;
-  /*margin-top: min(140px,20%);
-  margin-left: min(60px,4%);
-  width:min(830px, 60%);
-  height: 70%;
-  */
-  /*float:left;*/
   width: 58vw;
-  /*height: 70vh/550px; 58vw/840px*/
   height:550px;
-  /*bottom: 16vh;
-  top:15vh;*/
-   /*overflow: auto;margin-bottom:10vh;margin-top: 14vh;*/
-   margin-top: 14vh;
-  
+  margin-top: 14vh;
   margin-left: 4vw;
-  
-
-
-   /*width:min(830px, 60%);
-  height: 70%;*/
   }
   
   
   .center #about{
-  /*border-color: black;*/
   position:absolute;
   margin-top:4%;
   display: block;
@@ -46,7 +28,6 @@
   font-weight:900;
   min-height:70%;
   width:100%;
-  
   }
  
 
@@ -59,45 +40,26 @@ height:100%
  #footer{
   position:absolute;
   list-style: none;
-  
-  /*min-width:-webkit-min-content; min-width:-moz-min-content; min-width:min-content;*/
-   /*right: -1%;
-   margin-top: 2%;*/
   display: inline-block;
-
-
-
-  
-  
-  
- 
-
-  
-   
+  margin-top: 8%;
+  margin-left: -46%;
   }
 
-
-
-#footer a{
-    
+#footer a{ 
     text-decoration: none;
     margin: 0 3rem;
     font-size: 1.2em;
-    
-    
   }
   
   
   
   /*ARROW*/
   .down-arrow {
-  
   position: absolute;
   left: 50%;
   bottom: 3vh;/**/
   display: block;
   text-align: center;
-  
   z-index: 100;
   text-decoration: none;
   text-shadow: 0;
@@ -125,7 +87,6 @@ height:100%
   /*END OF ARROW*/
   
   
-  
   #Projects {
   position: relative;
   margin-top: 56vw;
@@ -140,11 +101,8 @@ height:100%
   position:absolute;
   height: 555px;
   width: 70vw;
-  /*border:none;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  border-radius: 4%;*/
   margin-top: 7%;
-  margin-left: -17%;/*height = 555px, width =1000px*/
+  margin-left: -17%;
   float:left;
   }
   
@@ -154,19 +112,14 @@ height:100%
   line-height: 160%;
   float: right;
   width:18vw;
-  height:45%;/*height = 45%, width 20%*/
+  height:45%;
   margin-top: 7%;
   margin-right: 4%;
   font-style: italic;
   text-align: center;
   padding: 15% 0% 0% 0%;
-
   }
 
-
-
-
-  
   
   /* Typing Effect Setup */
   .typewriter h1 {
@@ -209,49 +162,21 @@ height:100%
   50% { border-color:rgba(10, 83, 3, 0.83); }
   }
   
-  
-  /*max-width:1430px*/
+
   @media screen and (max-width:1300px) {
-    #latest-proj-explanation{display: none;}
-    #latest-project{display: none;}
-    #Projects{display: none;}
-    .down-arrow{display: none;}
-    .center {top:-5%;width:58vw;height:60vh;}
-
-
-   
-   /* .center {font-size: 1em;}
-    .center #about{font-size: 1em;}
-    .typewriter h1{font-size: 1.5em;}
-    .center #contact{font-size: 1em; width: 100%;}
-    .links li a{
-      font-size: 1em;
-      text-decoration: none;
-      
-    }*/
-}
-@media screen and (max-width:915px)  {
-  /*.center #about{font-size: 1.9vh;}*/
+  #latest-proj-explanation{display: none;}
+  #latest-project{display: none;}
+  #Projects{display: none;}
+  .down-arrow{display: none;}
+  .center {top:-5%;width:58vw;height:60vh;}
+  }
   
-  .center {top:0%;width:80vw;height:60vh;}
-  
-  /*.center {top:-5%;width:475px;height:708px;}*/
+  @media screen and (max-width:915px) {.center {top:0%;width:80vw;height:60vh;}}
 
-}
-
-@media screen and (max-width:415px) {
+  @media screen and (max-width:415px) {
   .typewriter h1 {font-size:3vh}
-.center #about{font-size:2vh}
-#footer a{font-size:3.5vw;margin: 0 1.8rem;}
-}
+  .center #about{font-size:2vh}
+  #footer a{font-size:3.5vw;margin: 0 1.8rem;}
+  }
 
-  
-
-/*.typewriter h1 {font-size:3vh}
-.center #about{font-size:2vh}*/
-  
-  /*.center #about{font-size: 1em;}
-  .typewriter h1{font-size: 1.5em;}*/
-  /*.links{font-size: 0.45em;  position:fixed; min-width:-webkit-min-content; min-width:-moz-min-content; min-width:min-content; 
-  display:flex; }*/
   
