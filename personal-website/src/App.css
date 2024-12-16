@@ -1,0 +1,118 @@
+
+/* @import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Cormorant:ital,wght@0,300..700;1,300..700&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap'); */
+@import url("https://use.typekit.net/hcm7nnl.css");
+
+
+
+*{
+  font-family: "adobe-garamond-pro", serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #fffffc;
+  
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+.opening-frame{
+  color:rgb(168, 0, 84);
+  border:solid transparent 2px;
+  height:100vh;
+  position: relative;
+  
+}
+.main-frame{
+  color:rgb(255, 13, 134);
+  /* margin: 7% 5% 0 5%; */
+  height:80%;
+  /* border: solid rgb(217, 255, 64) 5px; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-top:40px;
+  
+
+  
+}
+
+.about-me-frame{
+  position: absolute;
+  width:45%;
+  right:6%;
+  /* border: solid 1px black; */
+  height:100%;
+  padding-top:180px;
+  display:'inline-block';
+
+}
+
+
+.main-about-me{
+  display:inline;
+  font-weight: 500;
+  font-size:2.2em;
+  /* border: solid 1px black; */
+  height:fit-content;
+  /* width:50%; */
+}
+
+.more-about-me{
+  position: absolute;
+  font-size:1.7em;
+  /* border: solid 1px black; */
+  height:fit-content;
+  margin-top:0.5%;
+  text-align: justify;
+  width:86%;
+}
+.project-frame{
+  border:solid transparent 2px;
+  /* width:100%; */
+  height:100vh;
+}
+
+.about-me{
+  border: solid black 1px;
+
+}
+
+
+.video-grid{
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  left:25px;
+  top:100px;
+  border: solid  2px transparent;
+  position: relative;
+  height:60%;
+  width:95%;
+}
+
+
+.video-rectangle{
+  border: solid 1px rgb(234, 234, 234);
+  overflow: hidden; /* Ensure content fits inside */
+  position: relative;
+  cursor: pointer;
+  
+}
+
+.video-rectangle video {
+  position: absolute;
+  top: 0;
+  left: 10;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the video covers the entire div without distortion */
+}
+
+/* .video-rectangle:hover video {
+  opacity: 0.09; 
+  
+} */
+
