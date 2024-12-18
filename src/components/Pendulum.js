@@ -67,8 +67,8 @@ const Pendulum = ({ size }) => {
         display:'inline-block',
         position: 'absolute',
         // border: 'solid red 2px',
-        right:'55%',
-        bottom:'15%',
+        right:'50%',
+        bottom:'17%',
 
     }}>
       {/* The canvas will be created here */}

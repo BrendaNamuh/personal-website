@@ -35,10 +35,10 @@ function App() {
   <div id='home' className="opening-frame">
   <ScrollNav activeLink={activeLink} setActiveLink={setActiveLink} />
             <div className='main-frame'>
-          <Pendulum size={24} />
+          <Pendulum size={28} />
         <div className='about-me-frame'>
           <div className='main-about-me'>
-            I'm Brenda, a software engineer currently<br/>based in Montréal, Canada.
+            Hi, I'm Brenda,<br/> a software engineer currently<br/> based in Montréal, Canada.
           </div>
           <div className='more-about-me'>
           I am interested in building impactful systems that address social and scientific challenges. I’ve previously contributed to the Bagot Lab at McGill University and worked at The Canadian Press. Don't hesitate to reach out—I’d love to connect! 

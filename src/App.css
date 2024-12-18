@@ -42,10 +42,10 @@ html{
 .about-me-frame{
   position: absolute;
   width:45%;
-  right:6%;
+  right:0%;
   /* border: solid 1px black; */
   height:100%;
-  padding-top:180px;
+  padding-top:150px;
   display:'inline-block';
 
 }
@@ -62,12 +62,13 @@ html{
 
 .more-about-me{
   position: absolute;
-  font-size:1.7em;
+  font-size:1.59em;
   /* border: solid 1px black; */
   height:fit-content;
   margin-top:0.5%;
   text-align: justify;
-  width:86%;
+  width:61%;
+  line-height: 1.4;
 }
 .project-frame{
   border:solid transparent 2px;
