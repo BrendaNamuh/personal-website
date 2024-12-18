@@ -6,9 +6,9 @@ import React, { useState } from 'react';
 
 //To display video demo of project  
 const videoSources = [
-  "https://raw.githubusercontent.com/BrendaNamuh/personal-website/gh-pages/src/media/visual-ml-demo.mp4",
-  "https://raw.githubusercontent.com/BrendaNamuh/personal-website/gh-pages/src/media/genepath-demo.mov",
-  "https://raw.githubusercontent.com/BrendaNamuh/personal-website/gh-pages/src/media/hide-it-demo.mp4",
+  "https://raw.githubusercontent.com/BrendaNamuh/personal-website/src/media/visual-ml-demo.mp4",
+  "https://raw.githubusercontent.com/BrendaNamuh/personal-website/src/media/genepath-demo.mov",
+  "https://raw.githubusercontent.com/BrendaNamuh/personal-website/src/media/hide-it-demo.mp4",
   '',
   '',
   '',
@@ -43,7 +43,7 @@ function App() {
           <div className='more-about-me'>
           I am interested in building impactful systems that address social and scientific challenges. I’ve previously contributed to the Bagot Lab at McGill University and worked at The Canadian Press. Don't hesitate to reach out—I’d love to connect! 
           <br/><br/><span style={{fontSize:'0.92em'}}>
-              <a href="https://docs.google.com/document/d/e/2PACX-1vRbuvY78QHDXPSKHkhcc1uqjuKyubdyOyd2piIpWIACcW1g3P0SKgsnnEA_Im1Bg-jB8iqcSFPjPODZ/pub" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: 'inherit' }}>
+              <a href="https://raw.githubusercontent.com/BrendaNamuh/personal-website/src/media/CV_BrendaNamuhoranye(2024).pdf" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: 'inherit' }}>
                 CV
               </a>&nbsp;&nbsp; 
               <a href="https://github.com/BrendaNamuh" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: 'inherit' }}>
