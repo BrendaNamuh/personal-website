@@ -7,7 +7,7 @@ import React, { useState } from 'react';
 //To display video demo of project  
 const videoSources = [
   "https://raw.githubusercontent.com/BrendaNamuh/personal-website/src/media/visual-ml-demo.mp4",
-  "https://raw.githubusercontent.com/BrendaNamuh/personal-website/src/media/genepath-demo.mov",
+  "https://raw.githubusercontent.com/BrendaNamuh/personal-website/src/media/genepath-demo.mp4",
   "https://raw.githubusercontent.com/BrendaNamuh/personal-website/src/media/hide-it-demo.mp4",
   '',
   '',
