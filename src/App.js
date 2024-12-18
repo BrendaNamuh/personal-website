@@ -43,7 +43,7 @@ function App() {
           <div className='more-about-me'>
           I am interested in building impactful systems that address social and scientific challenges. I’ve previously contributed to the Bagot Lab at McGill University and worked at The Canadian Press. Don't hesitate to reach out—I’d love to connect! 
           <br/><br/><span style={{fontSize:'0.92em'}}>
-              <a href="https://raw.githubusercontent.com/BrendaNamuh/personal-website/src/media/CV_BrendaNamuhoranye(2024).pdf" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: 'inherit' }}>
+              <a href="https://drive.google.com/file/d/13Uz0x99bYih_MPRFIxSvnqbWWgIcQXWT/view?usp=sharing" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: 'inherit' }}>
                 CV
               </a>&nbsp;&nbsp; 
               <a href="https://github.com/BrendaNamuh" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: 'inherit' }}>
