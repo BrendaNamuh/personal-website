@@ -6,9 +6,11 @@ import React, { useState } from 'react';
 
 //To display video demo of project  
 const videoSources = [
+  'https://raw.githubusercontent.com/BrendaNamuh/personal-website/src/media/secret_library_demo.mp4',
   "https://raw.githubusercontent.com/BrendaNamuh/personal-website/src/media/visual-ml-demo.mp4",
   "https://raw.githubusercontent.com/BrendaNamuh/personal-website/src/media/genepath-demo.mp4",
   "https://raw.githubusercontent.com/BrendaNamuh/personal-website/src/media/hide-it-demo.mp4",
+
   '',
   '',
   '',
@@ -17,6 +19,7 @@ const videoSources = [
 ];
 //Re-direct to project webpage or project's repo
 const videoLinks = [
+  "",
   "https://brendanamuh.github.io/Visual-ML/",
   "https://github.com/BrendaNamuh/TravelingSalesman",
   "https://github.com/BrendaNamuh/Hide-It/tree/hide-it-2.0",
