@@ -6,10 +6,10 @@ import React, { useState } from 'react';
 
 //To display video demo of project  
 const videoSources = [
-  'https://raw.githubusercontent.com/BrendaNamuh/personal-website/src/media/secret_library_demo.mp4',
-  "https://raw.githubusercontent.com/BrendaNamuh/personal-website/src/media/visual-ml-demo.mp4",
-  "https://raw.githubusercontent.com/BrendaNamuh/personal-website/src/media/genepath-demo.mp4",
-  "https://raw.githubusercontent.com/BrendaNamuh/personal-website/src/media/hide-it-demo.mp4",
+  'https://raw.githubusercontent.com/BrendaNamuh/personal-website/gh-pages/src/media/secret_library_demo.mp4',
+  "https://raw.githubusercontent.com/BrendaNamuh/personal-website/gh-pages/src/media/visual-ml-demo.mp4",
+  "https://raw.githubusercontent.com/BrendaNamuh/personal-website/gh-pages/src/media/genepath_demo.mp4",
+  "https://raw.githubusercontent.com/BrendaNamuh/personal-website/gh-pages/src/media/hide-it-demo.mp4",
 
   '',
   '',
