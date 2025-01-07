@@ -34,7 +34,7 @@ const Pendulum = ({ size }) => {
       class Pendulum {
         constructor(n, size) {
           this.angle = 0;
-          this.angleSpeed = 0.01 + n * 0.0008;
+          this.angleSpeed = 0.01 + n * 0.0006;
           this.radius = size + n * (size / 5); // Modify the radius based on size
         }
 
@@ -67,7 +67,7 @@ const Pendulum = ({ size }) => {
         display:'inline-block',
         position: 'absolute',
         // border: 'solid red 2px',
-        right:'50%',
+        right:'53%',
         bottom:'17%',
 
     }}>

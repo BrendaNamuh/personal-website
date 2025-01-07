@@ -23,6 +23,29 @@ const ScrollNav = ({ activeLink, setActiveLink }) => {
             >
                 Latest Projects
             </a>
+            <div className='external-links'> 
+                <a
+                    href="https://drive.google.com/file/d/13Uz0x99bYih_MPRFIxSvnqbWWgIcQXWT/view?usp=sharing" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: 'inherit' }}
+                    onClick={() => handleClick('cv')}
+                    className={`nav-link ${activeLink === 'cv' ? 'active' : ''}`}
+                >
+                    CV
+                </a>
+                <a
+                    href="https://github.com/BrendaNamuh" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: 'inherit' }}
+                    onClick={() => handleClick('github')}
+                    className={`nav-link ${activeLink === 'github' ? 'active' : ''}`}
+                >
+                    GitHub
+                </a>
+                <a
+                    href="https://www.linkedin.com/in/brenda-namuhoranye-0a0277213/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: 'inherit' }}
+                    onClick={() => handleClick('linkedin')}
+                    className={`nav-link ${activeLink === 'linkedin' ? 'active' : ''}`}
+                >
+                    LinkedIn
+                </a>
+        </div>
         </div>
     );
 };

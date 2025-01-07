@@ -10,12 +10,8 @@ const videoSources = [
   "https://raw.githubusercontent.com/BrendaNamuh/personal-website/gh-pages/src/media/visual-ml-demo.mp4",
   "https://raw.githubusercontent.com/BrendaNamuh/personal-website/gh-pages/src/media/genepath_demo.mp4",
   "https://raw.githubusercontent.com/BrendaNamuh/personal-website/gh-pages/src/media/hide-it-demo.mp4",
-
   '',
   '',
-  
-
-
 ];
 //Re-direct to project webpage or project's repo
 const videoLinks = [
@@ -25,9 +21,6 @@ const videoLinks = [
   "https://github.com/BrendaNamuh/Hide-It/tree/hide-it-2.0",
   '',
   '',
-  
-
-
 ];
 
 function App() {
@@ -35,64 +28,50 @@ function App() {
 
   return (
     <>
-  <div id='home' className="opening-frame">
+  <div  className="opening-frame">
   <ScrollNav activeLink={activeLink} setActiveLink={setActiveLink} />
-            <div className='main-frame'>
-          <Pendulum size={28} />
-        <div className='about-me-frame'>
-          <div className='main-about-me'>
-            Hi, I'm Brenda,<br/> a software engineer currently<br/> based in Montréal, Canada.
-          </div>
-          <div className='more-about-me'>
-          I am interested in building impactful systems that address social and scientific challenges. I’ve previously contributed to the Bagot Lab at McGill University and worked at The Canadian Press. Don't hesitate to reach out—I’d love to connect! 
-          <br/><br/><span style={{fontSize:'0.92em'}}>
-              <a href="https://drive.google.com/file/d/13Uz0x99bYih_MPRFIxSvnqbWWgIcQXWT/view?usp=sharing" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: 'inherit' }}>
-                CV
-              </a>&nbsp;&nbsp; 
-              <a href="https://github.com/BrendaNamuh" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: 'inherit' }}>
-                GitHub
-              </a>&nbsp;&nbsp;
-              <a href="https://www.linkedin.com/in/brenda-namuhoranye-0a0277213/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: 'inherit' }}>
-                LinkedIn
-          </a>&nbsp; 
-          </span>
-          </div>
-        
+  {/* HOME PAGE */}
+    {activeLink === 'home' && (
+      <div className='main-frame'>
+              <Pendulum size={28} />
+            <div className='about-me-frame'>
+              <div className='main-about-me'>
+                Hi, I'm Brenda,<br/> a software engineer currently<br/> based in Montréal, Canada.<br/>
+              </div>
+              <div className='more-about-me'>
+              I am interested in building impactful systems that address social and scientific challenges. Currently, at The Canadian Press, I focus on identifying biases in news stories and developing internal tools to support journalists.<br/><br/>Don't hesitate to reach out—I’d love to chat! 
+              </div>
+            
+            </div>
         </div>
-    </div>
+    )}
+  {/* PROEJECTS PAGE */}
 
-  </div>
-
-  <div id='projects' className="project-frame">
-
-  <ScrollNav activeLink={activeLink} setActiveLink={setActiveLink} />
-
-        
+  {activeLink === 'projects' && (
     <div className='video-grid'> 
-    {videoSources.map((source,index)=> (
-      <a 
-      className='video-rectangle' 
-      key={`demo_${index}`}
-      target="_blank"
-      href={videoLinks[index]}
-      rel="noopener noreferrer"
-      >
-        <video
-            autoPlay
-            loop
-            width="100%"
-            muted 
+      {videoSources.map((source,index)=> (
+        <a 
+        className='video-rectangle' 
+        key={`demo_${index}`}
+        target="_blank"
+        href={videoLinks[index]}
+        rel="noopener noreferrer"
         >
-        <source src={source} type="video/mp4" />
-        Your browser does not support this video tag.
-        </video>
-      </a>
+          <video
+              autoPlay
+              loop
+              width="100%"
+              muted 
+          >
+          <source src={source} type="video/mp4" />
+          Your browser does not support this video tag.
+          </video>
+        </a>
 
-    ))}
-        
+      ))}
     </div>
-  </div>
-    
+  )}
+  </div>    
 </>
   );
 }
