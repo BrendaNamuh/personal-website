@@ -10,8 +10,7 @@ const videoSources = [
   "https://raw.githubusercontent.com/BrendaNamuh/personal-website/gh-pages/src/media/visual-ml-demo.mp4",
   "https://raw.githubusercontent.com/BrendaNamuh/personal-website/gh-pages/src/media/genepath_demo.mp4",
   "https://raw.githubusercontent.com/BrendaNamuh/personal-website/gh-pages/src/media/hide-it-demo.mp4",
-  '',
-  '',
+  
 ];
 //Re-direct to project webpage or project's repo
 const videoLinks = [
@@ -19,8 +18,7 @@ const videoLinks = [
   "https://brendanamuh.github.io/Visual-ML/",
   "https://github.com/BrendaNamuh/TravelingSalesman",
   "https://github.com/BrendaNamuh/Hide-It/tree/hide-it-2.0",
-  '',
-  '',
+  
 ];
 
 function App() {
