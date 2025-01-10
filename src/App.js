@@ -37,7 +37,7 @@ function App() {
                 Hi, I'm Brenda,<br/> a software engineer currently<br/> based in Montréal, Canada.<br/>
               </div>
               <div className='more-about-me'>
-              I am interested in building impactful systems that address social and scientific challenges. I am currently working at The Canadian Press, where I focus on identifying biases in news stories and developing internal tools to support journalists.<br/><br/>Don't hesitate to reach out—I’d love to chat! 
+              I am interested in building impactful systems that address social and scientific challenges. I am currently working at The Canadian Press, where I focus on identifying biases in news stories using NLP and developing other internal tools to support journalists.<br/><br/>Don't hesitate to reach out—I’d love to chat! 
               </div>
             
             </div>
