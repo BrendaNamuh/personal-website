@@ -14,9 +14,9 @@ const videoSources = [
 ];
 //Re-direct to project webpage or project's repo
 const videoLinks = [
-  "https://github.com/BrendaNamuh/book-club-app",
+  "https://brendanamuh.github.io/book-club-app/",
   "https://brendanamuh.github.io/Visual-ML/",
-  "https://github.com/BrendaNamuh/TravelingSalesman",
+  "https://gene-path-d3bfbe1e5603.herokuapp.com/",
   "https://github.com/BrendaNamuh/Hide-It/tree/hide-it-2.0",
   
 ];
