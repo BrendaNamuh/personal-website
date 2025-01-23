@@ -25,7 +25,7 @@ const ScrollNav = ({ activeLink, setActiveLink }) => {
             </a>
             <div className='external-links'> 
                 <a
-                    href="https://drive.google.com/file/d/13Uz0x99bYih_MPRFIxSvnqbWWgIcQXWT/view?usp=sharing" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: 'inherit' }}
+                    href="https://raw.githubusercontent.com/BrendaNamuh/personal-website/master/src/media/CV_BrendaNamuhoranye(2024)" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: 'inherit' }}
                     onClick={() => handleClick('cv')}
                     className={`nav-link ${activeLink === 'cv' ? 'active' : ''}`}
                 >
