@@ -24,13 +24,17 @@ const ScrollNav = ({ activeLink, setActiveLink }) => {
                 Latest Projects
             </a>
             <div className='external-links'> 
-                <a
-                    href="https://raw.githubusercontent.com/BrendaNamuh/personal-website/master/src/media/CV_BrendaNamuhoranye(2024)" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: 'inherit' }}
-                    onClick={() => handleClick('cv')}
-                    className={`nav-link ${activeLink === 'cv' ? 'active' : ''}`}
-                >
-                    CV
-                </a>
+            <a
+  href={`https://docs.google.com/viewer?url=https://raw.githubusercontent.com/BrendaNamuh/personal-website/master/src/media/CV_BrendaNamuhoranye(2025).pdf&embedded=true`}
+  target="_blank"
+  rel="noopener noreferrer"
+  style={{ textDecoration: 'none', color: 'inherit' }}
+  onClick={() => handleClick('cv')}
+  className={`nav-link ${activeLink === 'cv' ? 'active' : ''}`}
+>
+  CV
+</a>
+
                 <a
                     href="https://github.com/BrendaNamuh" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: 'inherit' }}
                     onClick={() => handleClick('github')}

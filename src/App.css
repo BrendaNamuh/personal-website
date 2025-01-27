@@ -44,7 +44,7 @@ html{
   position: absolute;
   width:45%;
   right:10%;
-  top:20%;
+  top:15%;
   /* border: solid 1px blue; */
   height:fit-content;
   display:'inline-block';
@@ -63,13 +63,13 @@ html{
 
 .more-about-me{
   position: absolute;
-  font-size:1.59em;
+  font-size:1.55em;
   /* border: solid 1px orange; */
   height:fit-content;
-  margin-top:0.5%;
+  margin-top:1%;
   text-align: justify;
-  width:100%;
-  line-height: 1.4;
+  width:75%;
+  line-height: 1.3;
 }
 .project-frame{
   border:solid transparent 2px;
@@ -83,16 +83,20 @@ html{
 }
 
 
-.video-grid{
-  display:grid;
-  grid-template-columns: repeat(3, 1fr);
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Three equal columns */
   gap: 20px;
-  left:25px;
-  top:100px;
-  border: solid  2px transparent;
+  left: 25px;
+  top: 100px;
+  border: solid 2px transparent;
   position: relative;
-  height:60%;
-  width:95%;
+  height: 60%;
+  width: 95%;
+}
+
+.video-grid > *:nth-child(4) {
+  grid-column: 2 / 3; /* Place the 4th item in the center column */
 }
 
 
@@ -117,4 +121,3 @@ html{
   opacity: 0.09; 
   
 } */
-

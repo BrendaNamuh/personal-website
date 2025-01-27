@@ -31,13 +31,13 @@ function App() {
   {/* HOME PAGE */}
     {activeLink === 'home' && (
       <div className='main-frame'>
-              <Pendulum size={28} />
+              <Pendulum size={19} />
             <div className='about-me-frame'>
               <div className='main-about-me'>
                 Hi, I'm Brenda,<br/> a software engineer currently<br/> based in Montréal, Canada.<br/>
               </div>
               <div className='more-about-me'>
-              I am interested in building impactful systems that address social and scientific challenges. I am currently working at The Canadian Press, where I focus on identifying biases in news stories using NLP and developing other internal tools to support journalists.<br/><br/>Don't hesitate to reach out—I’d love to chat! 
+              I am interested in building impactful systems that address social and scientific challenges. I am currently working at The Canadian Press, where I focus on identifying biases in news stories using NLP and developing other internal tools to support journalists. Don't hesitate to reach out—I’d love to chat! 
               </div>
             
             </div>
