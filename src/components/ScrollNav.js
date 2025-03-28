@@ -25,11 +25,10 @@ const ScrollNav = ({ activeLink, setActiveLink }) => {
             </a>
             <div className='external-links'> 
             <a
-  href={`https://docs.google.com/viewer?url=https://raw.githubusercontent.com/BrendaNamuh/personal-website/master/src/media/CV_BrendaNamuhoranye(2025).pdf&embedded=true`}
+  href="https://drive.google.com/file/d/12bDL32F_zrZE6gvcy0a3B6FXHUd4kfUI/view?usp=sharing"
   target="_blank"
   rel="noopener noreferrer"
   style={{ textDecoration: 'none', color: 'inherit' }}
-  onClick={() => handleClick('cv')}
   className={`nav-link ${activeLink === 'cv' ? 'active' : ''}`}
 >
   CV
@@ -37,14 +36,12 @@ const ScrollNav = ({ activeLink, setActiveLink }) => {
 
                 <a
                     href="https://github.com/BrendaNamuh" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: 'inherit' }}
-                    onClick={() => handleClick('github')}
                     className={`nav-link ${activeLink === 'github' ? 'active' : ''}`}
                 >
                     GitHub
                 </a>
                 <a
                     href="https://www.linkedin.com/in/brenda-namuhoranye-0a0277213/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: 'inherit' }}
-                    onClick={() => handleClick('linkedin')}
                     className={`nav-link ${activeLink === 'linkedin' ? 'active' : ''}`}
                 >
                     LinkedIn
