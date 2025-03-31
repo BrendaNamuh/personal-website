@@ -12,28 +12,29 @@ const ScrollNav = ({ activeLink, setActiveLink }) => {
             <a
                 href='#home'
                 onClick={() => handleClick('home')}
-                className={`nav-link ${activeLink === 'home' ? 'active' : ''}`}
+                className={`hide-on-small-screens nav-link ${activeLink === 'home' ? 'active' : ''}`}
             >
                 Home
             </a>
-            <a
-                href='#projects'
-                onClick={() => handleClick('projects')}
-                className={`nav-link ${activeLink === 'projects' ? 'active' : ''}`}
-            >
-                Latest Projects
-            </a>
+            
+                <a
+                    href='#projects'
+                    onClick={() => handleClick('projects')}
+                    className={`hide-on-small-screens nav-link ${activeLink === 'projects' ? 'active' : ''}`}
+                >
+                    Latest Projects
+                </a>
+            
             <div className='external-links'> 
-            <a
-  href="https://drive.google.com/file/d/12bDL32F_zrZE6gvcy0a3B6FXHUd4kfUI/view?usp=sharing"
-  target="_blank"
-  rel="noopener noreferrer"
-  style={{ textDecoration: 'none', color: 'inherit' }}
-  className={`nav-link ${activeLink === 'cv' ? 'active' : ''}`}
->
-  CV
-</a>
-
+                <a
+                    href="https://drive.google.com/file/d/12bDL32F_zrZE6gvcy0a3B6FXHUd4kfUI/view?usp=sharing"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style={{ textDecoration: 'none', color: 'inherit' }}
+                    className={`nav-link ${activeLink === 'cv' ? 'active' : ''}`}
+                    >
+                    CV
+                    </a>
                 <a
                     href="https://github.com/BrendaNamuh" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: 'inherit' }}
                     className={`nav-link ${activeLink === 'github' ? 'active' : ''}`}

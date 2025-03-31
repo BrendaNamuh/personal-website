@@ -31,7 +31,8 @@ function App() {
   {/* HOME PAGE */}
     {activeLink === 'home' && (
       <div className='main-frame'>
-              <Pendulum size={19} />
+              <div  className='hide-on-small-screens' ><Pendulum size={19} /></div>
+
             <div className='about-me-frame'>
               <div className='main-about-me'>
                 Hi, I'm Brenda,<br/> a software engineer currently<br/> based in Montréal, Canada.<br/>

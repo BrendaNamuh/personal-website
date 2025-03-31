@@ -121,3 +121,35 @@ html{
   opacity: 0.09; 
   
 } */
+
+
+@media (max-width:1200px){
+  .hide-on-small-screens{
+    display:none !important;
+  }
+  .about-me-frame{
+    width:70%;
+  }
+}
+
+@media (max-width:710px){
+  .hide-on-small-screens{
+    display:none !important;
+  }
+  .about-me-frame{
+    left:7%;
+  }
+
+  .main-about-me{
+    font-size: 23px;
+
+  }
+
+  .more-about-me{
+    font-size: 17px;
+    width: 90%;
+}
+.main-frame{
+  margin-top:40px;
+}
+}
