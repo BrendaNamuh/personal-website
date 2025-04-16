@@ -10,6 +10,7 @@ const videoSources = [
   "https://raw.githubusercontent.com/BrendaNamuh/personal-website/master/src/media/visual-ml-demo.mp4",
   "https://raw.githubusercontent.com/BrendaNamuh/personal-website/master/src/media/genepath_demo.mp4",
   "https://raw.githubusercontent.com/BrendaNamuh/personal-website/master/src/media/hide-it-demo.mp4",
+  "https://raw.githubusercontent.com/BrendaNamuh/personal-website/master/src/media/hand-to-text-demo.mp4",
   
 ];
 //Re-direct to project webpage or project's repo
@@ -18,6 +19,8 @@ const videoLinks = [
   "https://brendanamuh.github.io/Visual-ML/",
   "https://gene-path-d3bfbe1e5603.herokuapp.com/",
   "https://github.com/BrendaNamuh/Hide-It/tree/hide-it-2.0",
+  "https://handtotext.com/",
+
   
 ];
 

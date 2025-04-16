@@ -95,9 +95,6 @@ html{
   width: 95%;
 }
 
-.video-grid > *:nth-child(4) {
-  grid-column: 2 / 3; /* Place the 4th item in the center column */
-}
 
 
 .video-rectangle{
@@ -117,10 +114,6 @@ html{
   object-fit: cover; /* Ensures the video covers the entire div without distortion */
 }
 
-/* .video-rectangle:hover video {
-  opacity: 0.09; 
-  
-} */
 
 
 @media (max-width:1200px){
@@ -139,12 +132,9 @@ html{
   .about-me-frame{
     left:7%;
   }
-
   .main-about-me{
     font-size: 23px;
-
   }
-
   .more-about-me{
     font-size: 17px;
     width: 90%;
